@@ -68,7 +68,7 @@ async function getAIResponse(input) {
         return data.results[0].content;
     } catch (error) {
         console.error("Fetch error:", error);
-        return "Sorry, something went wrong. Please try again later.";
+        return "Hi, This is Olivia";
     }
 }
 
